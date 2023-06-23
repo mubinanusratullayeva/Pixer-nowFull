@@ -1,0 +1,126 @@
+@font-face {
+    font-display: swap;
+    font-family: 'Plus Jakarta Sans';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/plus-jakarta-sans-v7-latin-regular.woff2') format('woff2');@font-face {
+        font-display: swap;
+        font-family: 'Plus Jakarta Sans';
+        font-style: normal;
+        font-weight: 400;
+        src: url('../fonts/plus-jakarta-sans-v7-latin-regular.woff2') format('woff2');
+      }
+  }
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Plus Jakarta Sans';
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} 
+
+.container{
+    max-width: 1231px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+header{
+    padding-bottom: 100px;
+}
+
+nav{
+    border-bottom: 2px solid rgba(128, 128, 128, 0.163);
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px 0;
+}
+
+.navbar__burger{
+    display: flex;
+    min-width: 95%;
+    justify-content: space-between;
+}
+
+.navbar__burger-menu{
+    display: flex;
+    column-gap: 32px;
+    list-style: none;
+}
+
+.navbar__burger-menu--link{
+    text-decoration: none;
+    color: #010101;
+}
+
+.navbar__burger-tel{
+    /* the padding does'nt work */
+   /* padding: 12px, 24px, 12px, 24px; */
+   border-radius: 6px;
+   background-color: #010101;
+   color: #ffffff;
+   text-decoration: none;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   min-width: 156px;
+   cursor: pointer;
+}
+
+.navbar__burger-menu-list:hover .navbar__burger-menu--link{
+    color: #1AAB7B;
+}
+
+.hero{
+    margin-top: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.hero__description{
+    display: flex;
+    flex-direction: column;
+    align-items: flex;
+    justify-content: flex-start;
+}
+
+.hero__description-title{
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 78px;
+    max-width: 537px;
+}
+
+.hero__description-text{
+    color: #636f87;
+    max-width: 537px;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27px;
+}
+
+.hero__description-btn{
+    max-width: 168px;
+    border-radius: 6px;
+    padding: 20px 40px;
+    color: #ffffff;
+    background-color: #1AAB7B;
+    border: none;
+    cursor: pointer;
+    transition: 0.2s ease-in-out;
+}
+
+.hero__description-btn:hover{
+    background-color: #04dd95c3;
+}

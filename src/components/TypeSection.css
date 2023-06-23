@@ -1,0 +1,117 @@
+@font-face {
+    font-display: swap;
+    font-family: 'Plus Jakarta Sans';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/plus-jakarta-sans-v7-latin-regular.woff2') format('woff2');@font-face {
+        font-display: swap;
+        font-family: 'Plus Jakarta Sans';
+        font-style: normal;
+        font-weight: 400;
+        src: url('../fonts/plus-jakarta-sans-v7-latin-regular.woff2') format('woff2');
+      }
+  }
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Plus Jakarta Sans';
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} 
+
+.container{
+    max-width: 1231px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+.bg-grey{
+    background-color: #f2f4f6;
+}
+
+.block{
+    padding: 36px 0;
+}
+
+.block__title{
+    text-align: center;
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 50px;
+}
+
+.cards{
+    margin-top: 32px;
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 55px;
+    row-gap: 55px;
+    align-items: flex-start;
+}
+
+.cards__card{
+    position: relative;
+    max-width: 384px;
+    padding: 20px;
+    border-radius: 6px;
+    border: 2px solid #E1E7ED;
+    transition: 0.3s ease-in-out;
+}
+
+.cards__card:hover{
+   background-color: #1AAB7B;
+   cursor: pointer;
+}
+
+.cards__card:hover  .cards__card-title{
+    color: #f2f4f6;
+}
+
+.cards__card:hover  .cards__card-text{
+    color: #f2f4f6;
+}
+
+.cards__card:hover .cards__card-link{
+  text-decoration:underline;
+  color: #f2f4f6;
+}
+
+.cards__card-icon{
+    min-width: 64px;
+    min-height: 64px;
+    border-radius: 50%;
+    background-color: #E1E7ED;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+
+.cards__card-title{
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 44px;
+    color: #101010;
+}
+
+.cards__card-text{
+    margin: 30px 0 60px;
+    max-width: 324px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    color: #636f87;
+}
+
+.cards__card-link{
+    color: #101010;
+    text-decoration: none;
+}
