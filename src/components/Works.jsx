@@ -1,4 +1,4 @@
-import './Works.css';
+import './Works.scss';
 import blockimg1 from '../images/blockimg1.png';
 import blockimg1x from '../images/blockimg1x.png';
 

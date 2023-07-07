@@ -1,4 +1,4 @@
-import './cardstyle.css';
+import './cardstyle.scss';
 
 export function Card(props) {
     return (

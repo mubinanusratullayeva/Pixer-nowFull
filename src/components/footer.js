@@ -1,4 +1,4 @@
-import './footer.css';
+import './footer.scss';
 import Reg from './reg';
 
 function Footer() {

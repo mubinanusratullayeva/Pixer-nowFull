@@ -1,5 +1,5 @@
-import './TypeSection.css';
-import './Header-Navbar.css';
+import './TypeSection.scss';
+import './Header-Navbar.scss';
 import { Card } from './cardInTypSec';
 
 

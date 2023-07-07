@@ -1,4 +1,4 @@
-import './reg.css';
+import './reg.scss';
 
 function Reg() {
     let value = 'description'
