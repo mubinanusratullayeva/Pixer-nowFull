@@ -1,11 +1,9 @@
 import './reg.css';
-import Works from './Works';
 
 function Reg() {
     let value = 'description'
     return (
-        <div>
-            <Works />,
+        <>
             <section className='val'>
                 <div className='container'>
                     <h2 className='regTitle'>Leave your number and we'll call you back</h2>
@@ -25,7 +23,7 @@ function Reg() {
                     </div>
                 </div>
             </section>
-        </div>
+        </>
     )
 }
 

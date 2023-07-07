@@ -1,5 +1,4 @@
 import './Works.css';
-import TypeSection from './TypeSection';
 import blockimg1 from '../images/blockimg1.png';
 import blockimg1x from '../images/blockimg1x.png';
 
@@ -8,8 +7,7 @@ function Works() {
         alignSelf: 'flex-end',
     }
     return (
-        <div>
-            <TypeSection />
+        <>
             <section className='work'>
                 <div className='container'>
                     <h2 className='workTitle'>How do we work?</h2>
@@ -39,7 +37,7 @@ function Works() {
                     </div>
                 </div>
             </section>
-        </div>
+        </>
     )
 }
 

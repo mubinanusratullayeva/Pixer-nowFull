@@ -1,10 +1,8 @@
 import './Header-Navbar.css';
-import Navbar from './Navbar';
 
 function Header() {
     return (
         <header>
-            <Navbar />
             <div className='container'>
                 <div className='hero'>
                     <div className='hero__description'>
