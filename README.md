@@ -1,3 +1,7 @@
+It is my first ReactJs project.
+Uploaded on Netlify.app: https://clinquant-pothos-dcc0e4.netlify.app/
+Link of Figma: https://www.figma.com/file/AZGg9zCiBbWJD2UPR5kH3p/Pixer?type=design&node-id=9-0&mode=design&t=n9kTGK2u3xCAgjQr-0
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
